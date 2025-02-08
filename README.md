@@ -21,7 +21,7 @@ A minimalist URL shortener built with Rust and Actix-web. Converts long URLs int
 1. Pull the image:
 
 ```bash
-docker pull alkesala/url-shortener
+docker pull akesala/url-shortener
 ```
 
 2. Run container:
@@ -52,7 +52,7 @@ Response:
 
 ```json
 {
-  "short_code": "abc123"
+  "short_code": "{ SHORTURL IS HERE }"
 }
 ```
 
@@ -61,7 +61,7 @@ Response:
 Visit in browser or use curl:
 
 ```bash
-curl -L http://localhost:8080/abc123
+curl -L http://localhost:8080/{ SHORTURL }
 ```
 
 ## Docker Build
