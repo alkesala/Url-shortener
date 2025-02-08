@@ -21,13 +21,13 @@ A minimalist URL shortener built with Rust and Actix-web. Converts long URLs int
 1. Pull the image:
 
 ```bash
-docker pull yourusername/rust-url-shortener
+docker pull alkesala/url-shortener
 ```
 
 2. Run container:
 
 ```bash
-docker run -p 8080:8080 rust-url-shortener
+docker run -p 8080:8080 url-shortener
 ```
 
 ### Local Development
@@ -69,7 +69,7 @@ curl -L http://localhost:8080/abc123
 Build your own image:
 
 ```bash
-docker build -t rust-url-shortener .
+docker build -t url-shortener .
 ```
 
 ## API Reference
